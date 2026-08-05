@@ -1,0 +1,207 @@
+.footer-22.footer{
+    background:#111111;
+    border-radius:30px;
+    margin:25px;
+    overflow:hidden;
+    position:relative;
+}
+
+.footer-22 .second-footer{
+    padding:80px 60px 40px;
+}
+
+.footer-22-logo{
+    margin-bottom:25px;
+}
+
+.footer-22-logo img{
+    max-width:180px;
+}
+
+.footer-22-clinic-title{
+    color:#fff;
+    font-size:34px;
+    line-height:1.2;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.footer-22-clinic-desc{
+    color:rgba(255,255,255,.65);
+    font-size:16px;
+    line-height:1.9;
+    margin-bottom:30px;
+}
+
+/* HEADINGS */
+
+.footer-22-heading{
+    color:#f1b81a;
+    font-size:20px;
+    margin-bottom:30px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+/* MENU */
+
+.footer-22 .widget_nav_menu ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-22 .widget_nav_menu ul li{
+    margin-bottom:18px;
+}
+
+.footer-22 .widget_nav_menu ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:17px;
+    transition:.3s;
+}
+
+.footer-22 .widget_nav_menu ul li a:hover{
+    color:#f1b81a;
+    padding-left:8px;
+}
+
+/* CONTACT CARD */
+
+.footer-22 .footer-contact-card{
+    background:rgba(255,255,255,.03);
+    border:1px solid rgba(241,184,26,.15);
+    padding:30px;
+    border-radius:20px;
+}
+
+.footer-22 .footer-contact-item{
+    color:#fff;
+    margin-bottom:18px;
+    line-height:1.7;
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+}
+
+.footer-22 .footer-contact-item i{
+    color:#f1b81a;
+    min-width:20px;
+}
+
+/* SOCIAL */
+
+.footer-22-social{
+    display:flex;
+    gap:12px;
+    list-style:none;
+    padding:0;
+}
+
+.footer-22-social a{
+    width:42px;
+    height:42px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:rgba(241,184,26,.08);
+    color:#f1b81a;
+    transition:.3s;
+}
+
+.footer-22-social a:hover{
+    background:#f1b81a;
+    color:#111;
+}
+
+/* BIG TEXT */
+
+.footer-22-big-title{
+    font-size:160px;
+    font-weight:800;
+    text-align:center;
+    margin-top:70px;
+    color:rgba(241,184,26,.08);
+    letter-spacing:-8px;
+    line-height:1;
+}
+
+/* BOTTOM */
+
+.footer-22-bottom{
+    border-top:1px solid rgba(255,255,255,.08);
+    margin-top:40px;
+    padding-top:25px;
+}
+
+.footer-22-bottom p{
+    color:rgba(255,255,255,.7);
+    margin:0;
+}
+
+.footer-22-policy{
+    text-align:right;
+}
+
+.footer-22-policy a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.footer-22-policy a:hover{
+    color:#f1b81a;
+}
+
+.footer-22-policy span{
+    color:rgba(255,255,255,.3);
+    margin:0 12px;
+}
+
+/* REMOVE OLD BORDERS */
+
+.footer-22_old,
+.footer-22 .widget-area:nth-child(3),
+.footer-22 .widget-area:nth-child(4){
+    border:none;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:991px){
+
+    .footer-22 .second-footer{
+        padding:50px 25px;
+    }
+
+    .footer-22-big-title{
+        font-size:80px;
+        letter-spacing:-3px;
+    }
+
+    .footer-22 .widget-area{
+        margin-bottom:40px;
+    }
+
+    .footer-22-policy{
+        text-align:left;
+        margin-top:15px;
+    }
+}
+
+@media(max-width:767px){
+
+    .footer-22-big-title{
+        font-size:52px;
+    }
+
+    .footer-22-clinic-title{
+        font-size:28px;
+    }
+
+    .footer-22-heading{
+        margin-bottom:20px;
+    }
+}

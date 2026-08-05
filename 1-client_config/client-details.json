@@ -1,0 +1,27 @@
+{
+  "client_details": {
+    "company_name": "testcl",
+    "client_mobile": "",
+    "client_address": "",
+    "client_email": "",
+    "client_name_for_wb": "tspe929021",
+    "client_project_name_for_wb": "tspe929021"
+  },
+  "social_media_details": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "twitter": "",
+    "youtube": "",
+    "pinterest": ""
+  },
+  "theme_colors_details": {
+    "primary": "oklch(65% 0.18 null)",
+    "secondary": "oklch(48% 0.15 null)",
+    "light": "oklch(97% 0.02 null)",
+    "bg": "oklch(92% 0.05 null)",
+    "border": "oklch(88% 0.03 null)",
+    "accent": "oklch(72% 0.15 null)",
+    "text": "#222222"
+  }
+}
